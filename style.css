@@ -1,0 +1,115 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+h1 {
+    text-align: center;
+    font-size: 70px;
+    letter-spacing: 12px;
+    word-spacing: 15px;
+    color: red;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    color: #080808;
+    margin: 30px 0;
+    letter-spacing: 5px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 4px solid #ddd;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+input {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    max-width: 250px;
+    width: 100%;
+}
+
+input:focus {
+    outline: none;
+}
+
+label {
+    font-weight: 600;
+    color: #080808;
+}
+
+#save-user-button {
+    background-color: #4CAF50;
+    color: white;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px;
+}
+
+#save-user-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+tbody td img {
+    max-width: 100%;
+    max-height: 50px;
+}
+
+.delete-button,
+.edit-button {
+    border: none;
+    color: azure;
+    border-radius: 5px;
+    cursor: pointer;
+    max-width: 70px;
+    width: 100%;
+    height: 36px;
+}
+
+.delete-button {
+    background-color: red;
+}
+
+.delete-button:hover,
+.edit-button:hover {
+    background-color: #9a9797;
+    color: #000;
+    transition: all 0.5s ease;
+}
+
+.edit-button {
+    background-color: #4CAF50;
+}
